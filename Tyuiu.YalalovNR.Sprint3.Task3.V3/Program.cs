@@ -7,23 +7,18 @@ namespace Tyuiu.YalalovNR.Sprint3.Task3.V3
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-
             Console.Write("Введите строку: ");
             string str = Console.ReadLine();
-
-            int res = ds.GetMinCharCount(str);
-
+            char item = 'f';
+            int res = ds.GetMinCharCount(str, item);
             Console.WriteLine();
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
-
-            Console.WriteLine($"Минимальное количество подряд идущих 'f': {res}");
-
+            Console.WriteLine($"Минимальное количество подряд идущих '{item}': {res}");
             Console.ReadKey();
         }
     }
