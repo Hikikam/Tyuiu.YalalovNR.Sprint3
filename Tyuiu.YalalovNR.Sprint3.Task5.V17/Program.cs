@@ -1,5 +1,6 @@
 ﻿using System;
 using Tyuiu.YalalovNR.Sprint3.Task5.V17.Lib;
+
 namespace Tyuiu.YalalovNR.Sprint3.Task1.V17
 {
     class Program
@@ -22,7 +23,8 @@ namespace Tyuiu.YalalovNR.Sprint3.Task1.V17
             Console.WriteLine($"Пределы i: от {startValue1} до {stopValue1}");
             Console.WriteLine($"Пределы k: от {startValue2} до {stopValue2}");
 
-            double res = ds.GetSumSumSeries(x, startValue1, stopValue1, startValue2, stopValue2);
+         
+            double res = ds.GetSumSumSeries(x, startValue1, startValue2, stopValue1, stopValue2);
 
             Console.WriteLine();
             Console.WriteLine("***************************************************************************");
