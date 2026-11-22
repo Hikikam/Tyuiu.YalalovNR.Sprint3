@@ -1,4 +1,4 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting; // ОБЯЗАТЕЛЬНО ДЛЯ ТЕСТОВ
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting; 
 using Tyuiu.YalalovNR.Sprint3.Task1.V9.Lib;
 
 namespace Tyuiu.YalalovNR.Sprint3.Task1.V9.Test
