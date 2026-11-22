@@ -10,7 +10,7 @@ namespace Tyuiu.YalalovNR.Sprint3.Task4.V27.Lib
             {
                 if (x == 0)
                 {
-                    break;
+                    continue;
                 }
                 else
                 {
